@@ -2,6 +2,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 3fr;
     background-color: #DEB0A2;
+    gap: 20px;
  
 }
 
@@ -60,6 +61,34 @@ footer a {
     border-radius: 50%;
     height: 200px;
     width: 200px;
+
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-right: 1%;
+}
+
+.card1 {
+    background-color:  black;
+    border: solid;
+    border-color: #87EDE7;
+    border-width: 5px;
+    width: 100%;
+    height: 400px;
+
+}
+
+.card2{
+    background-color:  black;
+    border: solid;
+    border-color: #87EDE7;
+    border-width: 5px;
+    height: 200px;
+    justify-content: space-around;
 
 }
 
