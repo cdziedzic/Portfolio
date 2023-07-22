@@ -2,6 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 main{
     display: grid;
     grid-template-columns: 20% 80%;
@@ -91,11 +92,11 @@ article {
 
 section {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
     margin-right: 1%;
     margin-left:1%;
+    margin-top: 1%;
 }
 
 .card1 {
@@ -108,17 +109,23 @@ section {
 
 }
 
-.card2{
+.card2 {
     background-color:  black;
     border: solid;
     border-color: #87EDE7;
     border-width: 5px;
     width: 48.5%;
     height: 200px;
-    margin-right: auto;
 
 }
     
+@media screen and (max-width: 1000px) {
+    .card2 {
+        width: 100%;
+    }
+   } 
+    
+
 
 /* 
 
