@@ -1,18 +1,18 @@
 main{
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    background-color: #DEB0A2;
-    gap: 20px;
+    grid-template-columns: 20% 80%;
+    background-color: gray;
+
  
 }
 
 header {
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 20% 80%;
     font-size: 32px;
     font-family:serif;
     height: 100px;
-    background-color: #E7DAF7;
+    background-color: gray;
 }
 
 
@@ -34,11 +34,11 @@ header a {
 
 footer {
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 20% 80%;
     font-size: 32px;
     font-family:serif;
     height: 100px;
-    background-color: #E7DAF7;
+    background-color: gray;
 }
 
 footer nav {
@@ -64,12 +64,24 @@ footer a {
 
 }
 
+article {
+    margin-bottom: 5%;
+    font-size: 40pt;
+    color: #97F0C6;
+    border-right: solid #97F0C6 5px;
+    margin-right: 1%;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: normal;
+}
+
 section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
     margin-right: 1%;
+    margin-left:1%;
 }
 
 .card1 {
@@ -87,10 +99,12 @@ section {
     border: solid;
     border-color: #87EDE7;
     border-width: 5px;
+    width: 48.5%;
     height: 200px;
-    justify-content: space-around;
+    margin-right: auto;
 
 }
+    
 
 /* 
 
